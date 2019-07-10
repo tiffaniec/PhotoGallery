@@ -1,0 +1,90 @@
+*{
+  background-color: white;
+}
+header{
+  display: block;
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+h1{
+  font-family: 'Raleway Dots', cursive;
+  font-size: 100px;
+margin:0;
+
+}
+p{
+    font-family: 'Raleway Dots', cursive;
+    font-size: 40px;
+    margin:0;
+}
+
+.PhotoGallery{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img{
+  width: 300px;
+  height:300px;
+  object-fit:cover;
+  margin: 30px;
+  border-radius: 300px;
+}
+
+#pic2{
+  transform: rotate(180deg);
+}
+#pic9{
+  transform: rotate(90deg);
+}
+#pic10{
+  transform: rotate(90deg);
+}
+#pic12{
+  transform: rotate(90deg);
+}
+#pic13{
+  transform: rotate(90deg);
+}
+#pic14{
+  transform: rotate(90deg);
+}
+#pic18{
+  transform: rotate(90deg);
+}
+#pic20{
+  transform: rotate(180deg);
+}
+#pic21{
+  transform: rotate(180deg);
+}
+#pic22{
+  transform: rotate(90deg);
+}
+#pic28{
+  transform: rotate(180deg);
+}
+#pic29{
+  transform: rotate(90deg);
+}
+#pic31{
+  transform: rotate(180deg);
+}
+#pic32{
+  transform: rotate(90deg);
+}
+#pic33{
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width:900px) {
+  h1{
+    font-family: 'Raleway Dots', cursive;
+    font-size: 70px;
+  }
+  p{
+      font-family: 'Raleway Dots', cursive;
+      font-size: 20px;
+  }
+}
