@@ -25,7 +25,7 @@ p {
   display: flex;
   justify-content: center;
   /* flex-direction: row; */
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 img {
@@ -37,10 +37,6 @@ img {
 }
 
 #pic1 {
-  transform: rotate(180deg);
-}
-
-#pic2 {
   transform: rotate(180deg);
 }
 
