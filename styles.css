@@ -24,8 +24,8 @@ p {
 .PhotoGallery {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 img {
@@ -36,51 +36,66 @@ img {
   border-radius: 300px;
 }
 
-#pic1{
-  transform:rotate(180deg);
-}
-#pic2{
+#pic1 {
   transform: rotate(180deg);
 }
-#pic3{
-  transform: rotate(90deg);
-}
-#pic7{
-  transform: rotate(90deg);
-}
-#pic8{
-  transform: rotate(90deg);
-}
-#pic9{
-  transform: rotate(90deg);
-}
-#pic29{
-  transform: rotate(90deg);
-}
-#pic20{
+
+#pic2 {
   transform: rotate(180deg);
 }
-#pic15{
+
+#pic3 {
+  transform: rotate(90deg);
+}
+
+#pic7 {
+  transform: rotate(90deg);
+}
+
+#pic8 {
+  transform: rotate(90deg);
+}
+
+#pic9 {
+  transform: rotate(90deg);
+}
+
+#pic29 {
+  transform: rotate(90deg);
+}
+
+#pic20 {
   transform: rotate(180deg);
 }
-#pic14{
-  transform: rotate(90deg);
-}
-#pic28{
+
+#pic15 {
   transform: rotate(180deg);
 }
-#pic21{
+
+#pic14 {
   transform: rotate(90deg);
 }
-#pic24{
+
+#pic28 {
   transform: rotate(180deg);
 }
-#pic16{
+
+#pic21 {
   transform: rotate(90deg);
 }
-#pic25{
+
+#pic24 {
+  transform: rotate(180deg);
+}
+
+#pic16 {
   transform: rotate(90deg);
 }
+
+#pic25 {
+  transform: rotate(90deg);
+}
+
 @media screen and (max-width:900px) {
   h1 {
     font-family: 'Raleway Dots', cursive;
@@ -91,5 +106,4 @@ img {
     font-family: 'Raleway Dots', cursive;
     font-size: 20px;
   }
-
 }
