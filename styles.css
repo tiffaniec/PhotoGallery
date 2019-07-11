@@ -31,7 +31,7 @@ img{
   margin: 30px;
   border-radius: 300px;
 }
-#pic1{
+/* #pic1{
   transform:rotate(180deg);
 }
 #pic2{
@@ -75,7 +75,7 @@ img{
 }
 #pic25{
   transform: rotate(90deg);
-}
+} */
 
 @media screen and (max-width:900px) {
   h1{
