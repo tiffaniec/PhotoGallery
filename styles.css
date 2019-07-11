@@ -31,14 +31,13 @@ img{
   margin: 30px;
   border-radius: 300px;
 }
-
+#pic1{
+  transform:rotate(180deg);
+}
 #pic2{
   transform: rotate(180deg);
 }
 #pic3{
-  transform: rotate(90deg);
-}
-#pic4{
   transform: rotate(90deg);
 }
 #pic7{
