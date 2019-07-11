@@ -1,36 +1,40 @@
-*{
+* {
   background-color: white;
 }
-header{
+
+header {
   display: block;
   padding: 0;
-  margin:0;
+  margin: 0;
   text-align: center;
 }
-h1{
+
+h1 {
   font-family: 'Raleway Dots', cursive;
   font-size: 100px;
-margin:0;
-
-}
-p{
-    font-family: 'Raleway Dots', cursive;
-    font-size: 40px;
-    margin:0;
+  margin: 0;
 }
 
-.PhotoGallery{
-  display:flex;
+p {
+  font-family: 'Raleway Dots', cursive;
+  font-size: 40px;
+  margin: 0;
+}
+
+.PhotoGallery {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-img{
+
+img {
   width: 300px;
-  height:300px;
-  object-fit:cover;
+  height: 300px;
+  object-fit: cover;
   margin: 30px;
   border-radius: 300px;
 }
+
 /* #pic1{
   transform:rotate(180deg);
 }
@@ -76,14 +80,14 @@ img{
 #pic25{
   transform: rotate(90deg);
 } */
-
 @media screen and (max-width:900px) {
-  h1{
+  h1 {
     font-family: 'Raleway Dots', cursive;
     font-size: 70px;
   }
-  p{
-      font-family: 'Raleway Dots', cursive;
-      font-size: 20px;
+
+  p {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 20px;
   }
 }
